@@ -1,3 +1,15 @@
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import SoundBoard from "./components/SoundBoard";
+
 export default function App() {
-  return <h1 className="text-2xl font-bold underline">Hello, Vite + React!</h1>;
+  return (
+    <div className="min-h-screen flex flex-col bg-black">
+      <Header />
+      <main className="grow">
+        <SoundBoard />
+      </main>
+      <Footer />
+    </div>
+  );
 }
