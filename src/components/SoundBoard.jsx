@@ -5,8 +5,7 @@ import { useShowFavorites } from "../hooks/useShowFavorites";
 import SearchBar from "./SearchBar";
 import SoundButton from "./SoundButton";
 
-//SoundBoard Component
-
+// SoundBoard component
 
 export default function SoundBoard() {
   // Use custom hooks for state management

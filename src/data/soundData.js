@@ -15,6 +15,6 @@ const soundFiles = [
 ];
 
 // Sort alphabetically by name
-export const soundData = [...soundFiles].sort((a, b) => 
-a.name.localeCompare(b.name)
+export const soundData = [...soundFiles].sort((a, b) =>
+  a.name.localeCompare(b.name)
 );

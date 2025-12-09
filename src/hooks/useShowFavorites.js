@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-//Custom Hook: useShowFavorites
+// Custom Hook: useShowFavorites
 
 export function useShowFavorites() {
   const [showOnlyFavorites, setShowOnlyFavorites] = useState(false);

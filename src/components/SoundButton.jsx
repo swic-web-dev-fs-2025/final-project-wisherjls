@@ -1,4 +1,4 @@
-// sound button component
+// SoundButton component
 
 export default function SoundButton({ sound, isFavorite, onToggleFavorite }) {
   // Function to play the sound
@@ -23,7 +23,7 @@ export default function SoundButton({ sound, isFavorite, onToggleFavorite }) {
       <button
         onClick={() => onToggleFavorite(sound.id)}
         className="text-2xl hover:scale-110 transition-transform"
-        aria-label={isFavorite ? "Remove from favorites" : "Add to favorites"}
+        aria-label={isFavorite ? `Remove ${sound.name} from favorites` : `Add ${sound.name} to favorites`}
       >
         {isFavorite ? "❤️" : "🖤"}
       </button>

@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// Custom Hook: useFavorites
 export function useFavorites() {
   // Initialize favorites from localStorage
   const [favorites, setFavorites] = useState(() => {
@@ -19,7 +20,7 @@ export function useFavorites() {
         // Remove from favorites using filter
         return prevFavorites.filter((id) => id !== soundId);
       } else {
-        // Add to favorites using spread operator (immutable pattern)
+        // Add to favorites using spread operator
         return [...prevFavorites, soundId];
       }
     });

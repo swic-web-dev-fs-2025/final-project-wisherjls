@@ -1,4 +1,4 @@
-// footer component
+// Footer component
 
 export default function Footer() {
   return (
@@ -8,7 +8,7 @@ export default function Footer() {
           Created by <span className="font-semibold text-red-500">Jonathan Sayers</span>
         </p>
         <p className="text-gray-500 text-sm mt-1">
-          © 2025 - React Soundboard Project
+          2025 React Soundboard Project
         </p>
       </div>
     </footer>
